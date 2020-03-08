@@ -11,4 +11,4 @@
     package_state: present
 
   roles:
-    - role: jamescaldow.users
+    - role: jamescaldow.packages
