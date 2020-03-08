@@ -5,9 +5,8 @@
 
   vars:
     system_packages:
-      -
-        curl
-        vim
+      curl
+      vim
     package_state: present
 
   roles:
