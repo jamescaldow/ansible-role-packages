@@ -36,6 +36,7 @@ Example Playbook
     - hosts: all
       vars:
         system_packages:
+          - curl
           - vim
         package_state: present
 

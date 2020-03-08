@@ -1,4 +1,10 @@
 ---
+- include_tasks: update-RedHat.yml
+  when: ansible_os_family == 'RedHat'
+
+- include_tasks: update-Debian.yml
+  when: ansible_os_family == 'Debian'
+
 - name: install required software
   package:
     name: "{{ system_packages }}"
