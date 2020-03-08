@@ -1,0 +1,14 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+
+  vars:
+    system_packages:
+      -
+        curl
+        vim
+    package_state: present
+
+  roles:
+    - role: jamescaldow.users

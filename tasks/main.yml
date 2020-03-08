@@ -1,0 +1,5 @@
+---
+- name: install required software
+  package:
+    name: "{{ system_packages }}"
+    state: "{{ package_state }}"
