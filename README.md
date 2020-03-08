@@ -36,8 +36,8 @@ Example Playbook
     - hosts: all
       vars:
         system_packages:
-          vim
-          curl
+          - vim
+          - curl
         package_state: present
 
 As noted, valid values for `package_state` are present to install the
