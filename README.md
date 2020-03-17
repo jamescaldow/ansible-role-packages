@@ -1,6 +1,6 @@
 # Ansible Role: Packages
 
-[![Build Status](https://travis-ci.org/jamescaldow/ansible-role-packages.svg?branch=master)](https://travis-ci.org/jamescaldow/ansible-role-packages)
+[![Build Status](https://travis-ci.com/jamescaldow/ansible-role-packages.svg?branch=master)](https://travis-ci.com/jamescaldow/ansible-role-packages)
 
 Simple role to manage packages on Linux systems. Allows the user to define a
 list of packages, along with the state, and the role will manage them.
