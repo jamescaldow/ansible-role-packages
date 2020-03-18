@@ -3,6 +3,7 @@ dependencies: []
 
 galaxy_info:
   author: jamescaldow
+  role_name: packages
   description: Package management for Linux
   company: "N/A"
   license: "license (MIT)"
@@ -27,3 +28,6 @@ galaxy_info:
     - packages
     - system
     - linux
+    - debian
+    - ubuntu
+    - centos
